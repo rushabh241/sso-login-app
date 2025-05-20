@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import { GoogleLogin } from '@react-oauth/google';
-import jwtDecode from 'jwt-decode'; // Correct import
+import { jwtDecode } from 'jwt-decode';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import { MsalProvider, useMsal } from '@azure/msal-react';
 import { PublicClientApplication } from '@azure/msal-browser';
