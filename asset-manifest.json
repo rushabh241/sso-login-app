@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sso-login-app/static/css/main.820c5ab8.css",
+    "main.js": "/sso-login-app/static/js/main.10aa92be.js",
+    "index.html": "/sso-login-app/index.html",
+    "main.820c5ab8.css.map": "/sso-login-app/static/css/main.820c5ab8.css.map",
+    "main.10aa92be.js.map": "/sso-login-app/static/js/main.10aa92be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.820c5ab8.css",
+    "static/js/main.10aa92be.js"
+  ]
+}
