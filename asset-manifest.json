@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sso-login-app/static/css/main.820c5ab8.css",
-    "main.js": "/sso-login-app/static/js/main.10aa92be.js",
+    "main.js": "/sso-login-app/static/js/main.07b74812.js",
     "index.html": "/sso-login-app/index.html",
     "main.820c5ab8.css.map": "/sso-login-app/static/css/main.820c5ab8.css.map",
-    "main.10aa92be.js.map": "/sso-login-app/static/js/main.10aa92be.js.map"
+    "main.07b74812.js.map": "/sso-login-app/static/js/main.07b74812.js.map"
   },
   "entrypoints": [
     "static/css/main.820c5ab8.css",
-    "static/js/main.10aa92be.js"
+    "static/js/main.07b74812.js"
   ]
 }
