@@ -1,7 +1,7 @@
 {
   "name": "sso-login-app",
-  "homepage": "https://iconcile-login.netlify.app/",
   "version": "0.1.0",
+  "homepage": "https://iconcile-login.netlify.app/",
   "private": true,
   "dependencies": {
     "@azure/msal-browser": "^4.12.0",
