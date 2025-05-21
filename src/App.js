@@ -1,5 +1,5 @@
 // App.js
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { GoogleLogin } from '@react-oauth/google';
 import { jwtDecode } from 'jwt-decode';
@@ -17,10 +17,6 @@ const allowedDomains = ['iconcile.com', 'google.com'];
 
 function LoginPage({ onGoogleLogin, onMicrosoftLogin }) {
   const { instance } = useMsal();
-
-  useEffect(() => {
-    window.google?.accounts.id.disableAutoSelect();
-  }, []);
 
   const handleMicrosoftLogin = () => {
     instance.loginPopup({
@@ -84,12 +80,8 @@ function App() {
     if (allowedDomains.includes(domain)) {
       setUser(decoded);
       navigate('/home');
-    } 
-    else 
-    {
+    } else {
       alert(`Access denied. Only users from ${allowedDomains.join(' or ')} are allowed.`);
-      window.google?.accounts.id.disableAutoSelect();
-      window.google?.accounts.id.prompt();
     }
   };
 
