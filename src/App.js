@@ -109,7 +109,7 @@ function App() {
 export default function WrappedApp() {
   return (
     <MsalProvider instance={msalInstance}>
-      <Router basename="/sso-login-app"> {/* Add basename here */}
+      <Router > {/* Add basename here */}
         <App />
       </Router>
     </MsalProvider>
