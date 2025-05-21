@@ -13,7 +13,7 @@ const msalInstance = new PublicClientApplication(msalConfig);
 const microsoftLogo = "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg";
 
 // Allowed email domains
-const allowedDomains = ['iconcile.com', 'gmail.com'];
+const allowedDomains = ['iconcile.com', 'flyporter.com'];
 
 function LoginPage({ onGoogleLogin, onMicrosoftLogin }) {
   const { instance } = useMsal();
